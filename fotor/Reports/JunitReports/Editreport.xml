@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="123.701">
+    <testcase classname="User should able to edit the Image, change Langauage , Signin and Signup" name="user should be able to successfully edit the image" time="123.092">
+        <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: chrome=102.0.5005.63)&#10;Build info: version: '4.1.4', revision: '535d840ee2'&#10;System info: host: 'LAPTOP-2PQFNS61', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [8266bed2697ce0ade98fc584d3d7cfea, findElement {using=xpath, value=//span[@class='ScriptModal-module_modal__close__2Ixsi']}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KISHAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57537/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8266bed2697ce0ade98fc584d3d7cfea" type="org.openqa.selenium.NoSuchWindowException"><![CDATA[Given user should be navigated to fotor editor page.........................failed
+When user clicks on signin button...........................................skipped
+And user Enters valid fepy@eelraodo.com and Zxcvbnm@1 and login.............skipped
+Then user navigated to editor page..........................................skipped
+When user uploads image.....................................................skipped
+And user should able to edit image by adjust features.......................skipped
+And user should able to apply effects to image..............................skipped
+And user should able to add text on image...................................skipped
+And user should be able to add frames to image..............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=102.0.5005.63)
+Build info: version: '4.1.4', revision: '535d840ee2'
+System info: host: 'LAPTOP-2PQFNS61', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8266bed2697ce0ade98fc584d3d7cfea, findElement {using=xpath, value=//span[@class='ScriptModal-module_modal__close__2Ixsi']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.63, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\KISHAN~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57537}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57537/devtoo..., se:cdpVersion: 102.0.5005.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8266bed2697ce0ade98fc584d3d7cfea
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:567)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:385)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:377)
+	at fotor.EditImageStepDeff.user_should_be_navigated_to_fotor_editor_page(EditImageStepDeff.java:31)
+	at ✽.user should be navigated to fotor editor page(file:///F:/Lab%204/sprint2workspace/sprint%202_4/fotor/src/test/resources/Features/EditImage.feature:5)
+]]></failure>
+    </testcase>
+</testsuite>
